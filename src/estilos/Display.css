@@ -1,0 +1,19 @@
+.input{
+  height: 55px;
+  border-radius: 50px;
+  margin-bottom: 10px;
+  display: flex;
+  /* justificamos el text del display a la izquierda */
+  justify-content: flex-end;
+  /* centro verticalmente */
+  align-items: center;
+  font-weight: bold;
+  font-size: 30px;
+  background-color: rgb(125, 131, 109);
+  color: white;
+  /* superior, derecho, inferior, izquierdo (agujas del reloj) */
+  padding: 5px 30px 5px 5px;
+  margin: 4px solid black;
+  box-shadow: -1px 4px 10px -1px rgb(17, 18, 19);
+  user-select:  text ;
+}
